@@ -4,9 +4,9 @@
 #include <stdio.h>
 
 // Function to calculate factorial of a number
-long factorial(int N) {
+long factorial(int m) {
     long fact = 1;
-    for (int i = 1; i <= N; i++) {
+    for (int i = 1; i <= m; i++) {
         fact *= i;
     }
     return fact;
