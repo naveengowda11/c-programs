@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int a ,b;
+    char optr;
+    printf("enter the expression\n");
+    scanf("%d%c%d",&a,&optr,&b);
+    switch(optr){
+        case '+': printf("Result is = %d",a+b);
+        break;
+        case '-': printf("Result is = %d",a-b);
+        break;
+         case '*': printf("Result is = %d",a*b);
+        break;
+         case '/': printf("Result is = %d",a/b);
+        break;
+         case '%': printf("Result is = %d",a%b);
+        break;
+    }
+}
