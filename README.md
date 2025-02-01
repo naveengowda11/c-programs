@@ -1,2 +1,2 @@
-# s-c-in-C
+# c-pros
 Simple calculator using C
