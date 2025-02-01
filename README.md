@@ -1,2 +1,5 @@
-# c-pros
-Simple calculator using C
+#include<stdio.h>
+void main() 
+{
+printf("hello world") ;
+}
