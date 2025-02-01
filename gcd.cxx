@@ -10,8 +10,9 @@ int gcd(int a, int b)
 
 int main()
 {
-	int a = 10;
-	int b = 15;
+	int a, b;
+printf("enter the values of a and b");
+scanf("%d%d",&a,&b);
 	printf("Greatest common divisor of %d and %d is %d\n", a, b, gcd(a, b));
 	return 0;
 }
